@@ -1,93 +1,64 @@
-# CaggyShop - Toko Kebutuhan Game Online
+# 🛒 CaggyShop - Toko Kebutuhan Game Online
 
-![CaggyShop Preview](assets/images/preview.png)
+![CaggyShop Preview](https://via.placeholder.com/1200x600/667eea/ffffff?text=CaggyShop+-+Toko+Kebutuhan+Game)
 
-CaggyShop adalah website e-commerce untuk membeli kebutuhan game seperti Robux dan item Roblox. Dibangun dengan PHP Native, MySQL, dan Midtrans Payment Gateway.
+[![PHP Version](https://img.shields.io/badge/PHP-7.4%2B-blue)](https://php.net)
+[![MySQL](https://img.shields.io/badge/MySQL-5.7%2B-orange)](https://mysql.com)
+[![Midtrans](https://img.shields.io/badge/Payment-Midtrans_Snap-green)](https://midtrans.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## ✨ Fitur Utama
+**CaggyShop** adalah platform e-commerce khusus untuk memenuhi kebutuhan para gamer, seperti pembelian Robux dan item Roblox. Website ini dibangun dengan PHP Native, MySQL, dan terintegrasi dengan **Midtrans Snap** sebagai payment gateway.
 
-### 🛒 Untuk Pembeli
-- Halaman utama dengan daftar produk
-- Form pembelian dengan input Nickname, ID Game, dan WhatsApp
-- Pembayaran via **Midtrans Snap** (transfer bank, kartu kredit, e-wallet, Indomaret, dll)
-- Redirect otomatis ke WhatsApp Admin setelah pembayaran sukses
-- Tampilan modern dengan gradasi biru-ungu, responsif mobile
+> ⚡ **Dibuat dengan fokus pada kemudahan penggunaan, keamanan, dan tampilan modern.**
 
-### 🔐 Untuk Admin
-- Login dengan email & password
-- Dashboard admin
-- CRUD produk (tambah, edit, hapus)
-- Upload gambar produk
-- Lihat semua transaksi
-- Update status pesanan
-- Generate nomor pesanan otomatis (format: INV-XXXX)
+---
 
-## 🚀 Teknologi yang Digunakan
+## ✨ Fitur Unggulan
 
-- **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
-- **Backend**: PHP 7.4+ (Native)
-- **Database**: MySQL
-- **Payment Gateway**: Midtrans Snap
-- **Font**: Google Fonts (Poppins)
-- **Server**: Apache (XAMPP/Laragon)
+### 🛒 **Untuk Pembeli**
+| Fitur | Deskripsi |
+|-------|-----------|
+| **Halaman Produk** | Tampilan produk dalam bentuk card dengan gambar, nama, harga, dan tombol beli |
+| **Form Pembelian** | Input data pembeli: Nickname, ID Game, dan Nomor WhatsApp |
+| **Pembayaran Mudah** | Terintegrasi **Midtrans Snap** (Transfer Bank, Kartu Kredit, E-Wallet, Indomaret, Alfamart, dll) |
+| **Notifikasi Otomatis** | Redirect ke WhatsApp Admin dengan format pesan otomatis setelah pembayaran sukses |
+| **Tampilan Responsif** | Desain modern dengan gradasi biru-ungu, mobile friendly |
 
-## 📋 Persyaratan Sistem
+### 🔐 **Untuk Admin**
+| Fitur | Deskripsi |
+|-------|-----------|
+| **Login Aman** | Sistem autentikasi dengan session dan password ter-hash |
+| **Dashboard Admin** | Antarmuka khusus untuk mengelola toko |
+| **Manajemen Produk** | Tambah, edit, hapus produk dengan upload gambar |
+| **Manajemen Transaksi** | Lihat semua transaksi, update status pembayaran (pending/paid/failed) |
+| **Nomor Otomatis** | Generate nomor pesanan otomatis format: `INV-XXXX` |
 
-- PHP 7.4 atau lebih tinggi
-- MySQL 5.7 atau lebih tinggi
-- Web Server (Apache / Nginx)
-- Composer (opsional, untuk manajemen dependency)
-- Akun Midtrans (production/sandbox)
-
-## 🔧 Cara Installasi
-
-### 1. Clone Repository
-```bash
-git clone https://github.com/username/caggyshop.git
-cd caggyshop# CaggyShop - Toko Kebutuhan Game Online
-
-![CaggyShop Preview](assets/images/preview.png)
-
-CaggyShop adalah website e-commerce untuk membeli kebutuhan game seperti Robux dan item Roblox. Dibangun dengan PHP Native, MySQL, dan Midtrans Payment Gateway.
-
-## ✨ Fitur Utama
-
-### 🛒 Untuk Pembeli
-- Halaman utama dengan daftar produk
-- Form pembelian dengan input Nickname, ID Game, dan WhatsApp
-- Pembayaran via **Midtrans Snap** (transfer bank, kartu kredit, e-wallet, Indomaret, dll)
-- Redirect otomatis ke WhatsApp Admin setelah pembayaran sukses
-- Tampilan modern dengan gradasi biru-ungu, responsif mobile
-
-### 🔐 Untuk Admin
-- Login dengan email & password
-- Dashboard admin
-- CRUD produk (tambah, edit, hapus)
-- Upload gambar produk
-- Lihat semua transaksi
-- Update status pesanan
-- Generate nomor pesanan otomatis (format: INV-XXXX)
+---
 
 ## 🚀 Teknologi yang Digunakan
 
-- **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
-- **Backend**: PHP 7.4+ (Native)
-- **Database**: MySQL
-- **Payment Gateway**: Midtrans Snap
-- **Font**: Google Fonts (Poppins)
-- **Server**: Apache (XAMPP/Laragon)
+| Bagian | Teknologi |
+|--------|-----------|
+| **Frontend** | HTML5, CSS3, JavaScript (Vanilla), Google Fonts (Poppins) |
+| **Backend** | PHP 7.4+ (Native) |
+| **Database** | MySQL 5.7+ |
+| **Payment Gateway** | Midtrans Snap (Production & Sandbox) |
+| **Web Server** | Apache / Nginx |
+
+---
 
 ## 📋 Persyaratan Sistem
 
-- PHP 7.4 atau lebih tinggi
-- MySQL 5.7 atau lebih tinggi
-- Web Server (Apache / Nginx)
-- Composer (opsional, untuk manajemen dependency)
-- Akun Midtrans (production/sandbox)
+- ✅ PHP 7.4 atau lebih tinggi
+- ✅ MySQL 5.7 atau lebih tinggi
+- ✅ Web Server (Apache / Nginx)
+- ✅ Akun Midtrans ([Daftar di sini](https://midtrans.com))
 
-## 🔧 Cara Installasi
+---
 
-### 1. Clone Repository
+## 🔧 Panduan Installasi Lengkap
+
+### 📥 1. Clone Repository
 ```bash
-git clone https://github.com/username/caggyshop.git
+git clone https://github.com/caggyid/caggyshop.git
 cd caggyshop
